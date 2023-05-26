@@ -3,8 +3,8 @@ import time
 import os
 import telegram
 
-bot = telegram.Bot(token='6125882096:AAG8qeIKcO9cApEtU2ww1uwLK5Wn7w302c4')
-chat_id = '308730931'
+bot = telegram.Bot(token='AQUI_SEU_TOKEN')
+chat_id = 'AQUI_SEU_ID'
 
 with open("/home/meus-front.txt", "r") as f:
     dominios = f.read().splitlines()

@@ -16,15 +16,17 @@ O Verificador de CloudFront é um script em Python que verifica o status de uma 
    ```bash
    wget https://raw.githubusercontent.com/rdrigodias/verificador/main/install.sh -O install.sh
 
-3.Torne o arquivo install.sh executável com o comando:
+3. Torne o arquivo install.sh executável com o comando:
 
+```bash
 chmod +x install.sh
 
-4.Execute o script de instalação:
-
+4. Execute o script de instalação:
+    ```bash 
 ./install.sh
 
-##Configuração
+
+# Configuração
 
 1.Após a instalação, você precisará configurar o token do bot Telegram e o ID do chat. Siga estas etapas:
 
@@ -40,14 +42,17 @@ chat_id = 'AQUI_SEU_ID'
 5.Salve as alterações e feche o arquivo.
 
 ##Uso
+
 Após a instalação e configuração, o Verificador de Domínios será executado automaticamente em intervalos regulares para verificar o status dos domínios listados no arquivo /home/dominios.txt.
 
 As mensagens de notificação sobre o status de cada domínio serão enviadas para o chat configurado no Telegram.
 
 ##Suporte
+
 Se você encontrar algum problema ou tiver dúvidas sobre o Verificador de Domínios, entre em contato com o autor do código.
 
 ##Contribuição
+
 Se você deseja contribuir para o Verificador de Domínios, sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novos recursos. O projeto está hospedado no GitHub em: https
 
 

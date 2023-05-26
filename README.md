@@ -1,4 +1,4 @@
-# # Verificador de Domínios - Documentação
+# # Verificador de CloudFront - Documentação
 
 O Verificador de CloudFront é um script em Python que verifica o status de uma lista de Clound usando a biblioteca python-telegram-bot. Ele envia notificações sobre o status de cada domínio para um chat no Telegram.
 

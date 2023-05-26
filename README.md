@@ -14,7 +14,7 @@ O Verificador de CloudFront é um script em Python que verifica o status de uma 
 2. Execute o seguinte comando para baixar o script de instalação:
 
    ```bash
-   wget https://raw.githubusercontent.com/seu_usuario/seu_repositorio/main/install.sh -O install.sh
+   wget https://raw.githubusercontent.com/rdrigodias/verificador/main/install.sh -O install.sh
 
 3.Torne o arquivo install.sh executável com o comando:
 

@@ -16,6 +16,7 @@ fi
 
 # Instalar as bibliotecas necessárias
 echo "Instalando as bibliotecas necessárias..."
+sudo pip3 install backports.zoneinfo==0.2.1
 sudo pip3 install python-telegram-bot
 
 # Baixar o codigo do GitHub

@@ -34,7 +34,7 @@ wget https://raw.githubusercontent.com/rdrigodias/verificador/main/meus-front.tx
 # Adicionar os dominios manualmente
 echo "Adicione os domínios um por linha. Pressione Ctrl + X para salvar e sair."
 read -p "Pressione Enter para abrir o arquivo..."
-nano /home/dominios.txt
+nano /home/meus-front.txt
 
 # Executar o código pela primeira vez
 echo "Executando o código pela primeira vez..."
